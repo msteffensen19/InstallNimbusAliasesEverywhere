@@ -3,7 +3,7 @@ Install common Nimbus Aliases (dps, dpsa, di, de) on Linux and/or Windows machin
 
 ## Linux
 
-To install these aliases on Linux just run the Linux/InstallNimbusAliases.sh file or just copy the bashrc file to your ~/.bashrc after making a copy or your original.
+To install these aliases on Linux just run the Linux/InstallNimbusAliases.sh file or just copy the bashrc.txt file to your ~/.bashrc after making a copy or your original.
 
 To uninstall the aliases, run the Linux/UninstallNimbusAliasesOnLinux.sh script. 
 
