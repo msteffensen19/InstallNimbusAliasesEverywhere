@@ -1,0 +1,30 @@
+# .bashrc with common Nimbus aliases
+# Original .bashrc file is stored in ~/.bashrc.backup
+# Local functions
+function de() { docker exec -it $1 bash; }
+
+# Local aliases (use unalias to remove)
+alias di="docker images "
+alias dps="docker ps --format 'table {{.Names}}\t{{.Status}}\t{{.Image}}' "
+alias dpsa="docker ps -a --format 'table {{.Names}}\t{{.Status}}\t{{.Image}}' "
+#alias ipconfig="echo Using ifconfig...; ifconfig "
+alias dsa="~/dockerstopall.sh"
+#alias ip='ifconfig | head -27  | tail -1'
+# alias lsnet="echo --- ./mnt/hgfs/VMWare/ ---; ls -la /mnt/hgfs/VMWare/"
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+	. /etc/bashrc
+fi
+
+# User specific environment
+if ! [[ "$PATH" =~ "$HOME/.local/bin:$HOME/bin:" ]]
+then
+    PATH="$HOME/.local/bin:$HOME/bin:$PATH"
+fi
+export PATH
+
+# Uncomment the following line if you don't like systemctl's auto-paging feature:
+# export SYSTEMD_PAGER=
+
+
