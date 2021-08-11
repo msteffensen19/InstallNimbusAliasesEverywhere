@@ -5,5 +5,6 @@ cp ~/.bashrc ~/.bashrc.backup
 # You may need to run dos2unix on the file - if so, uncomment next line
 dos2unix ./bashrc.txt
 cp ./bashrc.txt ~/.bashrc
+cp ./dockerstopall.sh ~/dockerstopall.sh
 
 chmod +x ~/.bashrc
