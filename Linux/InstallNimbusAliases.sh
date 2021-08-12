@@ -6,5 +6,6 @@ cp ~/.bashrc ~/.bashrc.backup
 dos2unix ./bashrc.txt
 cp ./bashrc.txt ~/.bashrc
 cp ./dockerstopall.sh ~/dockerstopall.sh
+cp ./Passwords.txt ~/Desktop
 
 chmod +x ~/.bashrc
