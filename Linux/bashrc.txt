@@ -5,7 +5,7 @@ function de() { docker exec -it $1 bash; }
 
 # Local aliases (use unalias to remove)
 alias ipconfig="echo Using ifconfig...; ifconfig "
-alias ip='ifconfig | head -27 | tail -1 | cut -c 14-29'
+alias ip='ifconfig | sed -e '/ens33/,/collisions/!d' | head -2 | tail -1 | cut -c 14-29'
 alias di="docker images "
 alias dps="docker ps --format 'table {{.Names}}\t{{.Status}}\t{{.Image}}' "
 alias dpsa="docker ps -a --format 'table {{.Names}}\t{{.Status}}\t{{.Image}}' "
