@@ -9,3 +9,4 @@ cp ./dockerstopall.sh ~/dockerstopall.sh
 cp ./Passwords.txt ~/Desktop
 
 chmod +x ~/.bashrc
+echo "Now open a new terminal or run 'source ~/.bashrc' to enable the new aliases.\n"
