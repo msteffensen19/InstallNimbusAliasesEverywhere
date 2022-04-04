@@ -1,6 +1,6 @@
 # InstallNimbusAliasesEverywhere
 Install common Nimbus Aliases (dps, dpsa, di, de) on Linux and/or Windows machines.
-These commands will work on Windows in both CMD and Powershell
+These commands will work on Windows in both CMD and Powershell.
 * dps   =  docker ps (with compact, nicer formatting)
 * dpsa  =  docker ps -a (with compact, nicer formatting)
 * di    =  docker images
