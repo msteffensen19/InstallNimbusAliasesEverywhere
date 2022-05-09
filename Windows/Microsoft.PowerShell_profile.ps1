@@ -4,5 +4,5 @@
 # as file Microsoft.PowerShell_profile.ps1
 function dps {docker ps --format "table {{.Names}}\t{{.Status}}\t{{.Image}}"}
 function dpsa {docker ps -a --format "table {{.Names}}\t{{.Status}}\t{{.Image}}"}
-function di {docker images | perl -e 'print scalar <>, sort <>;' }
+function di {docker images | sort }
 function de {docker exec -it $args[0] powershell}
