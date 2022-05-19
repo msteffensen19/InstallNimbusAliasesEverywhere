@@ -8,5 +8,5 @@
 copy doskey.txt "C:\Program Files\Docker\doskey.bat"
 copy Microsoft.PowerShell_profile.ps1 %HOMEDRIVE%%HOMEPATH%\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1
 reg add "HKEY_CURRENT_USER\Software\Microsoft\Command Processor" /v AutoRun /t REG_SZ /d "\"C:\Program Files\Docker\doskey.bat\"
-
+::
 copy ..\Linux\Passwords.txt %HOMEDRIVE%%HOMEPATH%\Desktop\Passwords.txt
