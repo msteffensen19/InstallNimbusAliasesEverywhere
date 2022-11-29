@@ -12,3 +12,4 @@ doskey dps=docker ps --format "table {{.Names}}\t{{.Status}}\t{{.Image}}"
 doskey dpsa=docker ps -a --format "table {{.Names}}\t{{.Status}}\t{{.Image}}"
 doskey di=docker images | sort
 doskey de=docker exec -it $1 powershell
+doskey myip=ipconfig | findstr /i "ipv4" | sed -n 1p | sed s/^.......................................//
