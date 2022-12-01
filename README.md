@@ -1,7 +1,7 @@
 # InstallNimbusAliasesEverywhere
 NOTE - This can only be installed after Docker is installed.
 
-NOTE - This functionlity is called with the InstallDockerOnNimbusClient script. 
+NOTE - This functionality is called with the InstallDockerOnNimbusClient script. 
 
 Install common Nimbus Aliases (dps, dpsa, di, de) on Linux and/or Windows machines.
 These commands will work on Windows in both CMD and Powershell.
