@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 # DOCKERSTOPALL
 # Stop all running containers except autopass
 
